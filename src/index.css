@@ -275,6 +275,10 @@ main {
   border-radius: .625rem;
 }
 
+.card__item:not(:last-of-type) {
+  margin-bottom: 0.9375rem;
+}
+
 .card__img {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
