@@ -97,6 +97,7 @@ class Home extends Component {
             <div className="menu__title--bottom">Акции</div>
           </div>
           </section>
+          <About />
       </main>
     )
   }
