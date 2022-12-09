@@ -262,13 +262,14 @@ main {
 /* --------- Cards --------------- */
 
 .cards__list {
-  padding: .9375rem;
+  padding: .9375rem 0;
 }
 
 .card__item {
   display: grid;
   grid-template-columns:  1.125rem 6.25rem repeat(3, 1fr) .625rem;
   grid-template-rows: 1.125rem repeat(4, 21px) 1.125rem;
+  margin: 0 auto;
   width: 20.625rem;
   background-color: var(--white);
   border-radius: .625rem;
