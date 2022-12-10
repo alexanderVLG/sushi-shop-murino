@@ -25,7 +25,7 @@ class Home extends Component {
             <div>Пицца</div>
           </div>
           <div className="menu__item">
-            <Link to="/catalog">
+            <Link to="/products">
               <img src={sets} alt="Фото роллов и суши."/>
             </Link>
             <div>Сеты</div>

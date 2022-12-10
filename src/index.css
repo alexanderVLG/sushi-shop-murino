@@ -288,6 +288,7 @@ main {
   grid-column: 3 / -1;
   grid-row: 2;
   margin-left: 0.9375rem;
+  color: var(--black);
   font-size: .875rem;
   font-weight: 500;
   line-height: 1.24;
@@ -308,6 +309,7 @@ main {
   grid-row: 4/6;
   margin-top: auto;
   margin-left: 0.9375rem;
+  color: var(--black);
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.27;
@@ -326,6 +328,10 @@ main {
   background-color: var(--dkorange);
   border-radius: .3125rem;
   border: none;
+}
+
+.link__product {
+  text-decoration: none;
 }
 
 /* -------------- About ----------------- */

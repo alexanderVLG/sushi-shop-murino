@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
 
 
-class Home extends Component {
+class HomeLayout extends Component {
   render () {
     return (
       <>
@@ -18,4 +18,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default HomeLayout;
