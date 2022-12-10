@@ -3,7 +3,7 @@ import sushiSet from '../media/productsImg/small/sushiSet.jpg';
 import { products } from '../data.js';
 import About from '../components/About';
 
-const Menu = () => {
+const Products = () => {
     const [data] = useState(products);
     
     return(
@@ -41,4 +41,4 @@ const Menu = () => {
     );
   }
 
-export default Menu;
+export default Products;
