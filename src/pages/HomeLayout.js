@@ -4,18 +4,20 @@ import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
 
 
-class Home extends Component {
+class HomeLayout extends Component {
   render () {
     return (
       <>
         <header>
           <Navbar />
         </header>
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
         <Footer />
       </>
     );
   }
 }
 
-export default Home;
+export default HomeLayout;

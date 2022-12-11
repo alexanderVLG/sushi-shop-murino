@@ -18,14 +18,14 @@ import promo from '../media/img/promo.jpg';
 class Home extends Component {
   render () {
     return (
-      <main>
+      <>
           <section className="menu__list">
           <div className="menu__item">
               <img src={pizza} alt="Фото пиццы с томатной пастой, базиликом и сыром."/>
             <div>Пицца</div>
           </div>
           <div className="menu__item">
-            <Link to="/catalog">
+            <Link to="/products">
               <img src={sets} alt="Фото роллов и суши."/>
             </Link>
             <div>Сеты</div>
@@ -98,7 +98,7 @@ class Home extends Component {
           </div>
           </section>
           <About />
-      </main>
+      </>
     )
   }
 }

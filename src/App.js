@@ -1,9 +1,11 @@
 import {Component} from 'react';
 import { Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import Menu from './pages/Menu';
-import SharedLayout from './pages/SharedLayout';
+import Products from './pages/Products';
+import HomeLayout from './pages/HomeLayout';
 import Error from './pages/Error';
+import ProductCard from './pages/ProductCard';
+import ProductLayout from './pages/ProductLayout';
 
 
 
@@ -13,9 +15,12 @@ class App extends Component {
     return (
       
         <Routes>
-          <Route path="/" element={<SharedLayout />}>
+          <Route path="/" element={<HomeLayout />}>
             <Route index element={<Home />} />
-            <Route path="catalog" element={<Menu />} />
+            <Route path="products" element={<ProductLayout />}>
+              <Route index element={<Products />} />
+              <Route path=":productId" element={<ProductCard />} />
+            </Route>
             <Route path="*" element={<Error />} />
           </Route>          
         </Routes>
