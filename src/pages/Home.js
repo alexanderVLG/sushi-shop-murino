@@ -18,7 +18,7 @@ import promo from '../media/img/promo.jpg';
 class Home extends Component {
   render () {
     return (
-      <main>
+      <>
           <section className="menu__list">
           <div className="menu__item">
               <img src={pizza} alt="Фото пиццы с томатной пастой, базиликом и сыром."/>
@@ -98,7 +98,7 @@ class Home extends Component {
           </div>
           </section>
           <About />
-      </main>
+      </>
     )
   }
 }

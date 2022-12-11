@@ -11,7 +11,9 @@ class HomeLayout extends Component {
         <header>
           <Navbar />
         </header>
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
         <Footer />
       </>
     );

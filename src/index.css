@@ -176,13 +176,13 @@ main {
   bottom: 7px;
 }
 
-/* ---- Menu ----------- */
+/* ---- Products ----------- */
 
-.menu__container {
+.products__container {
   padding: .9375rem 0;
 }
 
-.menu__container h2 {
+.products__container h2 {
   margin-bottom: 1rem;
   text-align: center;
   font-size: 1.5rem;
@@ -190,7 +190,7 @@ main {
   line-height: 1.24;
 }
 
-.menu__container h2::before {
+.products__container h2::before {
   content: "";
   display: inline-block;
   vertical-align: top;
@@ -200,7 +200,7 @@ main {
   background-image: url(./media/svg/SetsIcon.svg);
 }
 
-.menu__sorting {
+.products__sorting {
   margin: 0 auto;
   padding: .625rem 1.25rem .625rem .5625rem;
   display: flex;
@@ -259,8 +259,6 @@ main {
   transform: rotate(-45deg);
 }
 
-/* --------- Cards --------------- */
-
 .cards__list {
   padding: .9375rem 0;
 }
@@ -282,13 +280,13 @@ main {
 .card__img {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  border-radius: .3125rem;
 }
 
 .card__title {
   grid-column: 3 / -1;
   grid-row: 2;
   margin-left: 0.9375rem;
-  color: var(--black);
   font-size: .875rem;
   font-weight: 500;
   line-height: 1.24;
@@ -331,7 +329,26 @@ main {
 }
 
 .link__product {
+  color: #000;
   text-decoration: none;
+}
+
+/* ------------------- ProductCards -------------------------- */
+.product-card__container {
+  margin: 0 auto;
+  width: 20.625rem;
+}
+
+.link-arrow__wrapper {
+  padding: 1rem 0;
+}
+
+
+
+/* ------------------- GoodsCarousel ------------------------ */
+
+.slider__image {
+  border-radius: 50%;
 }
 
 /* -------------- About ----------------- */
