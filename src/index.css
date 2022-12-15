@@ -398,6 +398,7 @@ main {
 }
 
 .product-card {
+  padding-bottom: 1.5rem;
   background-color: var(--white);
   border-radius: .9375rem;
 }
@@ -457,13 +458,110 @@ main {
   border-radius: .3125rem;
 }
 
+.set-structure {
 
+}
 
-/* ------------------- GoodsCarousel ------------------------ */
+.set-structure__title {
+  margin-bottom: 1.25rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.24;
+}
 
-.slider__image {
+/* ------------------- Slider ------------------------ */
+.carousel {
+  display: flex;
+  align-items: center;
+}
+
+.carousel__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.carousel__window {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.all-items__container {
+  display: flex;
+  height: 100%;
+  transition: transform .3s ease-in-out;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+.item img {
+  margin-bottom: .625rem;
+  order: -1;
   border-radius: 50%;
 }
+
+.item h5 {
+  margin-bottom: 0.625rem;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.24;
+  color: var(--black);
+}
+
+.item p {
+  font-size: 1.125rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.carousel .arrow {
+  width: 2.375rem;
+  height: 2.375rem;
+  background-color: var(--light-black);
+  border-radius: 50%;
+}
+
+.carousel .arrow__back:hover,
+.carousel .arrow__next:hover {
+  cursor: pointer;
+  -webkit-tap-highlight-color:  transparent;
+}
+
+.carousel .arrow > div {
+  position: relative;
+}
+
+.carousel .arrow > div span {
+  display: block;
+  position: absolute;
+  width: .875rem;
+  height: .875rem;
+  border-bottom: 1px solid var(--light-gray);
+  border-left: 1px solid var(--light-gray);
+}
+
+.carousel .arrow__back > div span {
+  top: 11px;
+  left: 38%;
+  transform: rotate(45deg);
+}
+
+.carousel .arrow__next > div span {
+  top: 11px;
+  right: 38%;
+  transform: rotate(-135deg);
+} 
+
 
 /* -------------- About ----------------- */
 .about {
