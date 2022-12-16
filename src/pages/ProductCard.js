@@ -2,13 +2,12 @@ import { useParams } from 'react-router-dom';
 import  {products}  from '../data';
 import About from '../components/About';
 import Carousel from '../components/Carousel';
-import sushiSet from '../media/productsImg/small/sushiSet.jpg';
 
 
 const ProductCard = () => {
   const {productId} = useParams();
   const product = products.find((product) => product.id === productId );
-  const {cardImage, name} = product;
+  const {cardImage, name, weight, pieces, cost } = product;
 
   return(
     <>
@@ -23,33 +22,24 @@ const ProductCard = () => {
           <article>
             <h4 className='product-card__title'>{name}</h4>
             <img src={cardImage} alt={name} />
-            <p className='product-card__desc'>{product.weight} грамм, {product.pieces} кусочков</p>
-            <p className='product-card__price'>{product.cost} руб</p>
+            <p className='product-card__desc'>{weight} грамм, {pieces} кусочков</p>
+            <p className='product-card__price'>{cost} руб</p>
             <button className='product-card__btn' type='button'>Хочу!</button>
           </article>
           <article className='set-structure'>
             <h5 className='set-structure__title'>Состав сета</h5>
             <Carousel>
-              <div className='item'>
-                <h5>Филадельфия</h5>
-                <img src={sushiSet} alt="" />
-                <p>350 руб</p>
-              </div>
-              <div className='item'>
-                <h5>Филадельфия</h5>
-                <img src={sushiSet} alt="" />
-                <p>350 руб</p>
-              </div>
-              <div className='item'>
-                <h5>Филадельфия</h5>
-                <img src={sushiSet} alt="" />
-                <p>350 руб</p>
-              </div>
-              <div className='item'>
-                <h5>Филадельфия</h5>
-                <img src={sushiSet} alt="" />
-                <p>350 руб</p>
-              </div>
+              {
+                product.contains.map((contain) => {
+                  return (
+                    <div className='item' key={contain.id}>
+                      <h5>{contain.name}</h5>
+                      <img src={contain.smallImage} alt={contain.name} />
+                      <p>{contain.price} руб</p>
+                    </div>
+                  );
+                })
+              }
             </Carousel>
           </article>
         </section>

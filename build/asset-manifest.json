@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6802beb1.css",
-    "main.js": "/static/js/main.f267f3a1.js",
+    "main.css": "/static/css/main.06950e5f.css",
+    "main.js": "/static/js/main.3dafad73.js",
     "static/media/first.jpg": "/static/media/first.67c3625d89acd4c8d155.jpg",
     "static/media/pizza.jpg": "/static/media/pizza.f82ae6aa1041d1ec14e0.jpg",
     "static/media/sushiSet3.jpg": "/static/media/sushiSet3.2cbe97489015937cbaf9.jpg",
@@ -13,7 +13,7 @@
     "static/media/chiken.jpg": "/static/media/chiken.166cb480ec0ad91560c6.jpg",
     "static/media/salad.jpg": "/static/media/salad.9c1cd46215dcfd173c18.jpg",
     "static/media/sushiSet9.jpg": "/static/media/sushiSet9.aa14371110fd9a896ec5.jpg",
-    "static/media/sushiSet8.jpg": "/static/media/sushiSet8.3ae58c696e9e9c07f2e7.jpg",
+    "static/media/sushi8.jpg": "/static/media/sushi8.3ae58c696e9e9c07f2e7.jpg",
     "static/media/sushiSet.jpg": "/static/media/sushiSet.64de75cbc440b1a1909a.jpg",
     "static/media/rolls.jpg": "/static/media/rolls.f7fdecab00fc6d9219e5.jpg",
     "static/media/sushiSet4.jpg": "/static/media/sushiSet4.a553d7e312eb8bf2726a.jpg",
@@ -23,15 +23,17 @@
     "static/media/wok.jpg": "/static/media/wok.7c6ab3b65935521571be.jpg",
     "static/media/sushiSet6.jpg": "/static/media/sushiSet6.65e376f53d6d51a38c59.jpg",
     "static/media/eel.jpg": "/static/media/eel.b04e1404bf67cf5accfc.jpg",
+    "static/media/imgOfsushi2.jpg": "/static/media/imgOfsushi2.ca871a5e74ddf200dbcb.jpg",
     "static/media/promo.jpg": "/static/media/promo.b3d6c64c3ad5e531cca8.jpg",
+    "static/media/imgOfsushi5.jpg": "/static/media/imgOfsushi5.ce2f327e739873fbf881.jpg",
     "static/media/sushi.jpg": "/static/media/sushi.bd44b4c2b4003c00b2b2.jpg",
     "index.html": "/index.html",
     "static/media/SetsIcon.svg": "/static/media/SetsIcon.16e65bde858d26d4ba73.svg",
-    "main.6802beb1.css.map": "/static/css/main.6802beb1.css.map",
-    "main.f267f3a1.js.map": "/static/js/main.f267f3a1.js.map"
+    "main.06950e5f.css.map": "/static/css/main.06950e5f.css.map",
+    "main.3dafad73.js.map": "/static/js/main.3dafad73.js.map"
   },
   "entrypoints": [
-    "static/css/main.6802beb1.css",
-    "static/js/main.f267f3a1.js"
+    "static/css/main.06950e5f.css",
+    "static/js/main.3dafad73.js"
   ]
 }
