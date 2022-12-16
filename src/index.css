@@ -398,6 +398,7 @@ main {
 }
 
 .product-card {
+   margin-bottom: 3rem;/* Нужно потом убрать */
   padding-bottom: 1.5rem;
   background-color: var(--white);
   border-radius: .9375rem;
@@ -480,7 +481,7 @@ main {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  width: 70%;
+  width: 231px;
 }
 
 .carousel__window {
