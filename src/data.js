@@ -51,7 +51,7 @@ export const products = [
     },
     {
       id: '1kmpkm999',
-      name: 'Макаки маки',
+      name: 'Унаги маки',
       smallImage: imgOfsushi5,
       price: 320
     }
@@ -66,12 +66,26 @@ export const products = [
     weight: 1000,
     pieces: 40,
     cost: 1479,
-    contains: {
+    contains: [
+      {
       id: 'kmpkml1,',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml4,',
+      name: 'Бонито',
+      smallImage: imgOfsushi3,
+      price: 340
     }
+  ]
   },
   {
     id: "DKVW94",
@@ -81,12 +95,25 @@ export const products = [
     weight: 1120,
     pieces: 40,
     cost: 1499,
-    contains: {
+    contains: [{
       id: 'kmpkml,2',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml4,',
+      name: 'Бонито',
+      smallImage: imgOfsushi3,
+      price: 340
     }
+  ]
   },
   {
     id: "1i1kkdkr",
@@ -96,12 +123,27 @@ export const products = [
     weight: 1260,
     pieces: 36,
     cost: 1599,
-    contains: {
+    contains: [
+      
+    {
+      id: '1kmpkml4,',
+      name: 'Бонито',
+      smallImage: imgOfsushi3,
+      price: 340
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+      {
       id: 'kmpkml,3',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
     }
+  ]
   },
   {
     id: "1ppop",
@@ -111,12 +153,25 @@ export const products = [
     weight: 1320,
     pieces: 46,
     cost: 1599,
-    contains: {
+    contains: [ {
       id: 'kmpkml,4',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml,',
+      name: 'Калифорния',
+      smallImage: imgOfsushi2,
+      price: 400
     }
+  ]
   },
   {
     id: "nvjfe9",
@@ -126,12 +181,25 @@ export const products = [
     weight: 1020,
     pieces: 40,
     cost: 1469,
-    contains: {
+    contains: [{
       id: 'kmpkml,5',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml,',
+      name: 'Калифорния',
+      smallImage: imgOfsushi2,
+      price: 400
     }
+  ]
   },
   {
     id: "lkc8928",
@@ -141,12 +209,25 @@ export const products = [
     weight: 1200,
     pieces: 52,
     cost: 1559,
-    contains: {
+    contains: [{
       id: 'kmpkml,6',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml,',
+      name: 'Калифорния',
+      smallImage: imgOfsushi2,
+      price: 400
     }
+  ]
   },
   {
     id: "295omvk",
@@ -156,12 +237,25 @@ export const products = [
     weight: 1270,
     pieces: 50,
     cost: 1650,
-    contains: {
+    contains: [{
       id: 'kmpkml,7',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml,',
+      name: 'Калифорния',
+      smallImage: imgOfsushi2,
+      price: 400
     }
+  ]
   },
   {
     id: "vnvowr1",
@@ -171,12 +265,31 @@ export const products = [
     weight: 150,
     pieces: 45,
     cost: 1600,
-    contains: {
+    contains: [{
       id: 'kmpkml,8',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
+    },
+    {
+      id: '1kmpkml4,',
+      name: 'Бонито',
+      smallImage: imgOfsushi3,
+      price: 340
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml,',
+      name: 'Калифорния',
+      smallImage: imgOfsushi2,
+      price: 400
     }
+  ]
   },
   {
     id: "0295kksdv",
@@ -186,12 +299,33 @@ export const products = [
     weight: 900,
     pieces: 25,
     cost: 990,
-    contains: {
+    contains: [
+      
+    {
+      id: '1kmpkml4,',
+      name: 'Бонито',
+      smallImage: imgOfsushi3,
+      price: 340
+    },
+    {
       id: 'kmpkml,9',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml,',
+      name: 'Калифорния',
+      smallImage: imgOfsushi2,
+      price: 400
     }
+  ]
   },
   {
     id: "kverh9053",
@@ -201,11 +335,23 @@ export const products = [
     weight: 890,
     pieces: 24,
     cost: 900,
-    contains: {
+    contains: [{
       id: 'kmp9kml,',
       name: 'Филадельфия',
       smallImage: imgOfsushi,
       price: 390
-    }
+    },
+    {
+      id: '1kmpkm999',
+      name: 'Унаги маки',
+      smallImage: imgOfsushi5,
+      price: 320
+    },
+    {
+      id: '1kmpkml4,',
+      name: 'Бонито',
+      smallImage: imgOfsushi3,
+      price: 340
+    }]
   }
 ]

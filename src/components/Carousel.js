@@ -18,7 +18,6 @@ const Carousel = ({children}) => {
       const newOffSet = currentOffSet - 50;
 
       const maxOffSet = -(50 * (items.length - 2));
-      console.log(newOffSet, maxOffSet);
       return Math.max(newOffSet, maxOffSet)
     })
   }
