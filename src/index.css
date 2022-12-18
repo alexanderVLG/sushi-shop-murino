@@ -571,6 +571,42 @@ main {
   line-height: 1.24;
 }
 
+/* ------------- Cart ---------------------------- */
+.cart__container {
+  margin: 0 auto;
+  width: 20.625rem;
+}
+.cart__container h2 {
+  padding-top: .625rem;
+  padding-bottom: .4375rem;
+  text-align: center;
+}
+
+.cart__items {
+  width: 100%;
+}
+
+.list__item {
+  padding: .9375rem .9375rem .9375rem 0;
+  background-color: var(--white);
+  border-radius: .3125rem;
+}
+
+.list__item h4 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.list__item img {
+
+}
+
+.list__item p {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 /* -------------- About ----------------- */
 .about {

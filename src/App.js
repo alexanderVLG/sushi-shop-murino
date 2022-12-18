@@ -6,6 +6,7 @@ import HomeLayout from './pages/HomeLayout';
 import Error from './pages/Error';
 import ProductCard from './pages/ProductCard';
 import ProductLayout from './pages/ProductLayout';
+import Cart from './pages/Cart';
 
 
 
@@ -21,6 +22,7 @@ class App extends Component {
               <Route index element={<Products />} />
               <Route path=":productId" element={<ProductCard />} />
             </Route>
+            <Route path='cart' element={<Cart />} />
             <Route path="*" element={<Error />} />
           </Route>          
         </Routes>
