@@ -398,8 +398,7 @@ main {
 }
 
 .product-card {
-   margin-bottom: 3rem;/* Нужно потом убрать */
-  padding-bottom: 1.5rem;
+  margin-bottom: 1.875rem;
   background-color: var(--white);
   border-radius: .9375rem;
 }
@@ -459,10 +458,6 @@ main {
   border-radius: .3125rem;
 }
 
-.set-structure {
-
-}
-
 .set-structure__title {
   margin-bottom: 1.25rem;
   text-align: center;
@@ -473,6 +468,7 @@ main {
 
 /* ------------------- Slider ------------------------ */
 .carousel {
+  padding-bottom: 1.5rem;
   display: flex;
   align-items: center;
 }
@@ -506,6 +502,8 @@ main {
 .item img {
   margin-bottom: .625rem;
   order: -1;
+  max-width: 4.125rem;
+  height: 4.125rem;
   border-radius: 50%;
 }
 
@@ -562,6 +560,16 @@ main {
   right: 38%;
   transform: rotate(-135deg);
 } 
+
+
+/* ------------- Recommend section into the Productcards --------------- */
+.recommend-sets__title {
+  margin-bottom: 1.25rem;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.24;
+}
 
 
 /* -------------- About ----------------- */
