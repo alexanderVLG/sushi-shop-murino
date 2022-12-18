@@ -15,6 +15,7 @@ import imgOfsushi2 from './media/productsImg/small/imgOfsushi2.jpg';
 import imgOfsushi3 from './media/productsImg/small/imgOfsushi3.jpg';
 import imgOfsushi4 from './media/productsImg/small/imgOfsushi4.jpg';
 import imgOfsushi5 from './media/productsImg/small/imgOfsushi5.jpg';
+import banzay from './media/productsImg/small/banzay.jpg';
 
 export const products = [
   {
@@ -55,8 +56,27 @@ export const products = [
       smallImage: imgOfsushi5,
       price: 320
     }
-    ]
-      
+    ],
+    recommends: [
+      {
+        id: 'poiuy0',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      },
+      {
+        id: 'poiuy1',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      },
+      {
+        id: 'poiuy2',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      }
+    ]   
   }, 
   {
     id: "-02-024TMKM",
@@ -85,7 +105,27 @@ export const products = [
       smallImage: imgOfsushi3,
       price: 340
     }
-  ]
+    ],
+    recommends: [
+      {
+        id: 'poiuy00',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      },
+      {
+        id: 'poiuy11',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      },
+      {
+        id: 'poiuy22',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      }
+    ] 
   },
   {
     id: "DKVW94",
@@ -113,7 +153,27 @@ export const products = [
       smallImage: imgOfsushi3,
       price: 340
     }
-  ]
+  ],
+  recommends: [
+    {
+      id: 'poiuy01',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy12',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy23',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    }
+  ] 
   },
   {
     id: "1i1kkdkr",
@@ -143,7 +203,27 @@ export const products = [
       smallImage: imgOfsushi,
       price: 390
     }
-  ]
+  ],
+  recommends: [
+    {
+      id: 'poiuy02',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy13',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy24',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    }
+  ] 
   },
   {
     id: "1ppop",
@@ -171,7 +251,27 @@ export const products = [
       smallImage: imgOfsushi2,
       price: 400
     }
-  ]
+  ],
+  recommends: [
+    {
+      id: 'poiuy03',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy14',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy25',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    }
+  ] 
   },
   {
     id: "nvjfe9",
@@ -199,7 +299,27 @@ export const products = [
       smallImage: imgOfsushi2,
       price: 400
     }
-  ]
+  ],
+  recommends: [
+    {
+      id: 'poiuy04',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy15',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy26',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    }
+  ] 
   },
   {
     id: "lkc8928",
@@ -227,7 +347,27 @@ export const products = [
       smallImage: imgOfsushi2,
       price: 400
     }
-  ]
+  ],
+  recommends: [
+    {
+      id: 'poiuy05',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy16',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy27',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    }
+  ] 
   },
   {
     id: "295omvk",
@@ -255,7 +395,27 @@ export const products = [
       smallImage: imgOfsushi2,
       price: 400
     }
-  ]
+  ],
+  recommends: [
+    {
+      id: 'poiuy06',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy17',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy28',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    }
+  ] 
   },
   {
     id: "vnvowr1",
@@ -289,7 +449,27 @@ export const products = [
       smallImage: imgOfsushi2,
       price: 400
     }
-  ]
+  ],
+  recommends: [
+    {
+      id: 'poiuy0001',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy18',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy29',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    }
+  ] 
   },
   {
     id: "0295kksdv",
@@ -325,7 +505,27 @@ export const products = [
       smallImage: imgOfsushi2,
       price: 400
     }
-  ]
+  ],
+  recommends: [
+    {
+      id: 'poiuy001',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy101',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    },
+    {
+      id: 'poiuy203',
+      name: 'Банзай',
+      smallImage: banzay,
+      price: 290
+    }
+  ] 
   },
   {
     id: "kverh9053",
@@ -352,6 +552,26 @@ export const products = [
       name: 'Бонито',
       smallImage: imgOfsushi3,
       price: 340
-    }]
+    }],
+    recommends: [
+      {
+        id: 'poiuy004',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      },
+      {
+        id: 'poiuy105',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      },
+      {
+        id: 'poiuy206',
+        name: 'Банзай',
+        smallImage: banzay,
+        price: 290
+      }
+    ] 
   }
 ]

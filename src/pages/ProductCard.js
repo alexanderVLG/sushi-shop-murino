@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import  {products}  from '../data';
 import About from '../components/About';
 import Carousel from '../components/Carousel';
-
+import { PlusButtonContainer, PlusButtonArrows } from '../controls/PlusButton';
 
 const ProductCard = () => {
   const {productId} = useParams();
@@ -43,6 +43,26 @@ const ProductCard = () => {
             </Carousel>
           </article>
         </section>
+        <article className='recommend-sets'>
+            <h5 className='recommend-sets__title'>Рекомендуем к этому товару</h5>
+            <Carousel>
+              {
+                product.recommends.map((recommend) => {
+                  return (
+                    <div className='item' key={recommend.id}>
+                      <h5>{recommend.name}</h5>
+                      <img src={recommend.smallImage} alt={recommend.name} />
+                      <p>{recommend.price} руб
+                        <PlusButtonContainer>
+                          <PlusButtonArrows />
+                        </PlusButtonContainer>
+                      </p>
+                    </div>
+                  );
+                })
+              }
+            </Carousel>
+          </article>
       </section>
       <About />
     </>    
