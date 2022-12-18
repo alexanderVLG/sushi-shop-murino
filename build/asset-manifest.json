@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9aca7811.css",
-    "main.js": "/static/js/main.2ccd4138.js",
+    "main.css": "/static/css/main.67285d61.css",
+    "main.js": "/static/js/main.6fad4bdd.js",
     "static/media/first.jpg": "/static/media/first.67c3625d89acd4c8d155.jpg",
     "static/media/pizza.jpg": "/static/media/pizza.f82ae6aa1041d1ec14e0.jpg",
     "static/media/sushiSet3.jpg": "/static/media/sushiSet3.2cbe97489015937cbaf9.jpg",
@@ -28,13 +28,14 @@
     "static/media/banzay.jpg": "/static/media/banzay.cb9a59ffaa7ad501ec7a.jpg",
     "static/media/imgOfsushi5.jpg": "/static/media/imgOfsushi5.ce2f327e739873fbf881.jpg",
     "static/media/sushi.jpg": "/static/media/sushi.bd44b4c2b4003c00b2b2.jpg",
+    "static/media/bigPhiladephia.png": "/static/media/bigPhiladephia.1726ca5805c99fbd6a08.png",
     "index.html": "/index.html",
     "static/media/SetsIcon.svg": "/static/media/SetsIcon.16e65bde858d26d4ba73.svg",
-    "main.9aca7811.css.map": "/static/css/main.9aca7811.css.map",
-    "main.2ccd4138.js.map": "/static/js/main.2ccd4138.js.map"
+    "main.67285d61.css.map": "/static/css/main.67285d61.css.map",
+    "main.6fad4bdd.js.map": "/static/js/main.6fad4bdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aca7811.css",
-    "static/js/main.2ccd4138.js"
+    "static/css/main.67285d61.css",
+    "static/js/main.6fad4bdd.js"
   ]
 }

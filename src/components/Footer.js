@@ -1,4 +1,5 @@
 import {Component} from "react";
+import { Link } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -83,7 +84,7 @@ class Footer extends Component {
               </a>
             </li>
             <li>
-              <a href="#">
+              <Link to="/cart">
                 <div>
                   <svg width="34" height="30" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M22.3813 25.9435C22.4368 25.9527 22.4919 25.9572 22.5463 25.9572C23.0244 25.9572 23.4464 25.6119 23.5276 25.1247L24.5237 19.1481C24.6142 18.6055 24.2476 18.0923 23.7049 18.0018C23.1623 17.9111 22.6491 18.2779 22.5586 18.8206L21.5625 24.7972C21.4721 25.3398 21.8387 25.8531 22.3813 25.9435Z" fill="#FF9846"/>
@@ -93,7 +94,7 @@ class Footer extends Component {
                   </svg>
                 </div>
                 <div>Корзина</div>
-              </a>
+              </Link>
             </li>
             <li>
               <a href="#">

@@ -20,7 +20,7 @@ export const PlusButtonArrows = styled.span `
   width: .8125rem;
   background-color: var(--light-gray);
   border: 1px solid var(--light-gray);
-  border-radius: 5px;
+  border-radius: .3125rem;
 
   &:after {
     content: "";
@@ -32,6 +32,6 @@ export const PlusButtonArrows = styled.span `
     width: .8125rem;
     background-color: var(--light-gray);
     border: 1px solid var(--light-gray);
-    border-radius: 5px;
+    border-radius: .3125rem;
   }
 `;
