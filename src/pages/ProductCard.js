@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import  {products}  from '../data';
 import About from '../components/About';
+import MainFooter from '../components/MainFooter';
 import Carousel from '../components/Carousel';
 import { PlusButtonContainer, PlusButtonArrows } from '../controls/PlusButton';
 
@@ -65,6 +66,7 @@ const ProductCard = () => {
           </article>
       </section>
       <About />
+      <MainFooter />
     </>    
   );
 }

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CartButton = styled.button `
   margin: 0 auto;
+  margin-bottom: .625rem;
   padding: .8125rem 5.5625rem;
   width: 20.625rem;
   font-size: 1.125rem;

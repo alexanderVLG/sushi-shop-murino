@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { products } from '../data.js';
 import About from '../components/About';
+import MainFooter from '../components/MainFooter.js';
 
 const Products = () => {
     return(
@@ -29,6 +30,7 @@ const Products = () => {
           </ul>
         </section>
         <About />
+        <MainFooter />
       </>
     );
   }
