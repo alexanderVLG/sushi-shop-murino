@@ -327,6 +327,15 @@ main {
   background-color: var(--dkorange);
   border-radius: .3125rem;
   border: none;
+  transition: all .1s ease-in-out;
+}
+
+.card__btn:hover {
+  cursor:pointer;
+}
+
+.card__btn:active {
+  transform: scale(0.95);
 }
 
 .link__product {

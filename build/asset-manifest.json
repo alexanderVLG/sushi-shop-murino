@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cddceef.css",
+    "main.css": "/static/css/main.03fb858a.css",
     "main.js": "/static/js/main.63a7533f.js",
     "static/media/first.jpg": "/static/media/first.67c3625d89acd4c8d155.jpg",
     "static/media/pizza.jpg": "/static/media/pizza.f82ae6aa1041d1ec14e0.jpg",
@@ -31,11 +31,11 @@
     "static/media/bigPhiladephia.png": "/static/media/bigPhiladephia.1726ca5805c99fbd6a08.png",
     "index.html": "/index.html",
     "static/media/SetsIcon.svg": "/static/media/SetsIcon.16e65bde858d26d4ba73.svg",
-    "main.3cddceef.css.map": "/static/css/main.3cddceef.css.map",
+    "main.03fb858a.css.map": "/static/css/main.03fb858a.css.map",
     "main.63a7533f.js.map": "/static/js/main.63a7533f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cddceef.css",
+    "static/css/main.03fb858a.css",
     "static/js/main.63a7533f.js"
   ]
 }
