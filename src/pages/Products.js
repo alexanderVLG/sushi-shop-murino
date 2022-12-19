@@ -4,6 +4,10 @@ import About from '../components/About';
 import MainFooter from '../components/MainFooter.js';
 
 const Products = () => {
+
+  const handleButtonAddCart = () => {
+    return console.log('clicked');
+  }
     return(
       <>
         <section className="products__container">
@@ -23,7 +27,7 @@ const Products = () => {
                   <img className="card__img" src={product.image} alt="Фото сета из суши и роллов." />
                   <p className='card__desc'>{product.weight} грамм, {product.pieces} кусочков</p>
                   <p className='card__price'>{product.cost} РУБ</p>
-                  <button className='card__btn' type='button'>Хочу!</button>
+                  <button onClick={handleButtonAddCart} className='card__btn' type='button'>Хочу!</button>
                 </li>
               );
             })}

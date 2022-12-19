@@ -327,7 +327,7 @@ main {
   background-color: var(--dkorange);
   border-radius: .3125rem;
   border: none;
-  transition: all .1s ease-in-out;
+  transition: scale .1s ease-in-out;
 }
 
 .card__btn:hover {
@@ -335,6 +335,7 @@ main {
 }
 
 .card__btn:active {
+  -webkit-tap-highlight-color:  transparent;
   transform: scale(0.95);
 }
 
