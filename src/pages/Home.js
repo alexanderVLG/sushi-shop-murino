@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { Link } from 'react-router-dom';
 import About from "../components/About";
+import MainFooter from "../components/MainFooter";
 import pizza from '../media/img/pizza.jpg';
 import sets from '../media/img/sets.jpg';
 import wok from '../media/img/wok.jpg';
@@ -98,6 +99,7 @@ class Home extends Component {
           </div>
           </section>
           <About />
+          <MainFooter />
       </>
     )
   }

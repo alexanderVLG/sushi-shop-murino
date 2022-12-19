@@ -583,28 +583,98 @@ main {
 }
 
 .cart__items {
+  margin-bottom: 0.625rem;
   width: 100%;
 }
 
 .list__item {
-  padding: .9375rem .9375rem .9375rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 3.75rem);
+  column-gap: 1.875rem;
+  padding: .3125rem 0;
   background-color: var(--white);
   border-radius: .3125rem;
 }
 
 .list__item h4 {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  margin-left: 0.625rem;
   font-size: 1.125rem;
   font-weight: 400;
   color: var(--black);
 }
 
 .list__item img {
-
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
 }
 
 .list__item p {
   font-size: 1.125rem;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+.list__item p:first-of-type {
+  grid-column: 2 / 4;
+  grid-row: 2/3;
+  margin-left: 0.625rem;
+}
+
+.list__item p:last-of-type {
+  grid-column: 3 / -1;
+  grid-row: 2/3;
+  margin: 0 auto;
+}
+
+.cart-total__list {
+  display: grid;
+  grid-template-columns: repeat(4, 3.75rem);
+  column-gap: 1.875rem;
+  margin-bottom: 0.625rem;
+  padding-bottom: 0.75rem;
+  width: 20.625rem;
+  background-color: var(--white);
+  border-radius: .3125rem;
+}
+
+.cart-total__list h4 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.24;
+  color: var(--dkorange);
+}
+
+.cart-total__item {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, 3.75rem);
+  column-gap: 1.875rem;
+  padding: .625rem 0;
+  border-bottom: 1px solid var(--gray);
+}
+
+.cart-total__item span {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  line-height: 1.22;
+}
+
+.cart-total__item span:first-of-type {
+  grid-column: 1 / 3;
+  font-weight: 400;
+}
+
+.cart-total__item span:last-of-type {
+  grid-column: 3 / -1;
+  font-weight: 500; 
+}
+
+.cart-total__item--uppercase {
   text-transform: uppercase;
 }
 
@@ -678,7 +748,7 @@ footer {
 }
 
 footer,
-footer a {
+.footer__container a {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.24;
@@ -705,7 +775,7 @@ footer a:hover {
   margin-bottom: 5px;
 }
 
-footer h3 {
+.footer__container h3 {
   margin-bottom: .625rem;
   text-align: center;
   font-size: 1rem;

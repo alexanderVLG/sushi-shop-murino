@@ -7,7 +7,7 @@ const Cart = () => {
   return (
     <section className="cart__container">
       <h2>Корзина</h2>
-      <article className='cart__items'>
+      <section className='cart__items'>
         <ul className='cart__list'>
           <li className='list__item'>
             <h4>Самая большая Филадельфия</h4>
@@ -24,10 +24,21 @@ const Cart = () => {
             <p>170 руб</p>
           </li>
         </ul>
-      </article>
-      <section className='cart-total'>
+      </section>
+      <section className='cart-total__list'>
         <h4>Итого</h4>
-
+        <div className='cart-total__item'>
+          <span>1 товар</span>
+          <span className='cart-total__item--uppercase'>320 руб</span>
+        </div>
+        <div className='cart-total__item'>
+          <span>Скидка</span>
+          <span className='cart-total__item--uppercase'>0 руб</span>
+        </div>
+        <div className='cart-total__item'>
+          <span>Доставка</span>
+          <span>Бесплатно</span>
+        </div>
       </section>
       <CartButton>
         Оформить заказ
