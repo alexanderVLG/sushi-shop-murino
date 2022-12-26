@@ -1,6 +1,7 @@
+import React from 'react';
 import {Link} from 'react-router-dom';
 
-const MobileFooter = () => {
+export default function MobileFooter () {
   return(
     <section className="mobile-footer">
         <div className="mobile-footer__container">
@@ -45,4 +46,3 @@ const MobileFooter = () => {
     </section>
   );
 }
-export default MobileFooter;

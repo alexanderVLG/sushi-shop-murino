@@ -1,7 +1,8 @@
+import React from 'react';
 import { useEffect, useState, Children, cloneElement } from 'react';
 
 
-const Carousel = ({children}) => {
+export default function Carousel ({children}) {
   const [items, setItems] = useState([]);
   const [offSet, setOffSet] = useState(0);
 
@@ -55,4 +56,3 @@ const Carousel = ({children}) => {
     </div>
   );
 }
-export default Carousel;

@@ -1,10 +1,10 @@
+import React from 'react';
 import { Outlet } from 'react-router-dom';
 
-const ProductLayout = () => {
+export default function ProductLayout () {
   return (
     <>
       <Outlet />
     </>
   );
 }
-export default ProductLayout;
