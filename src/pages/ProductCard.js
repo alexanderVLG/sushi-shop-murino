@@ -1,3 +1,4 @@
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import  {products}  from '../data';
 import About from '../components/About';
@@ -5,7 +6,7 @@ import MainFooter from '../components/MainFooter';
 import Carousel from '../components/Carousel';
 import { PlusButtonContainer, PlusButtonArrows } from '../controls/PlusButton';
 
-const ProductCard = () => {
+export default function ProductCard () {
   const {productId} = useParams();
   const product = products.find((product) => product.id === productId );
   const {cardImage, name, weight, pieces, cost } = product;
@@ -70,4 +71,3 @@ const ProductCard = () => {
     </>    
   );
 }
-export default ProductCard;

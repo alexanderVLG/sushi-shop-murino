@@ -1,9 +1,10 @@
+import React from 'react';
 import bigPhiladephia from '../media/productsImg/small/bigPhiladephia.png';
 import { PlusButtonContainer, PlusButtonArrows } from '../controls/PlusButton';
 import { MinusButtonContainer, MinusButton } from '../controls/MinusButton';
 import { CartButton } from '../controls/CartButton';
 
-const Cart = () => {
+export default function Cart () {
   return (
     <section className="cart__container">
       <h2>Корзина</h2>
@@ -46,5 +47,3 @@ const Cart = () => {
     </section>
   );
 }
-
-export default Cart;

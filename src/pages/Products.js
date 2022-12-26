@@ -1,9 +1,10 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { products } from '../data.js';
 import About from '../components/About';
 import MainFooter from '../components/MainFooter.js';
 
-const Products = () => {
+export default function Products () {
 
   const handleButtonAddCart = () => {
     return console.log('clicked');
@@ -39,4 +40,3 @@ const Products = () => {
     );
   }
 
-export default Products;
