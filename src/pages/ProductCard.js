@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import  {products}  from '../data';
+import  {data}  from '../data';
 import About from '../components/About';
 import MainFooter from '../components/MainFooter';
 import Carousel from '../components/Carousel';
@@ -8,9 +8,9 @@ import { PlusButtonContainer, PlusButtonArrows } from '../controls/PlusButton';
 
 export default function ProductCard () {
   const {productId} = useParams();
-  const product = products.find((product) => product.id === productId );
+  const product = data.find((product) => product.id === productId );
   const {cardImage, name, weight, pieces, cost } = product;
-
+  useEffect(() => console.log(product), [product])
   return(
     <>
       <section className='product-card__container'>

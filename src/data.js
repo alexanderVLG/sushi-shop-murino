@@ -1,3 +1,4 @@
+
 import sushiSet from './media/productsImg/small/sushiSet.jpg';
 import sushiSet2 from './media/productsImg/small/sushiSet2.jpg';
 import sushiSet3 from './media/productsImg/small/sushiSet3.jpg';
@@ -17,7 +18,7 @@ import imgOfsushi4 from './media/productsImg/small/imgOfsushi4.jpg';
 import imgOfsushi5 from './media/productsImg/small/imgOfsushi5.jpg';
 import banzay from './media/productsImg/small/banzay.jpg';
 
-export const products = [
+export const data = [
   {
     id: "pmpomO245643",
     name: 'Саломон сет',
